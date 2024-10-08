@@ -1,0 +1,16 @@
+msk_imdb_pipeline/
+├── src/
+│   ├── producer.py                # Kafka Producer code
+│   ├── consumer.py                # Kafka Consumer code
+│   ├── create_msk_stream.py       # Script to create MSK and S3 bucket
+│   ├── config.py                  # Configuration for Kafka and S3
+│   ├── kafka_utils.py             # Helper functions for Kafka setup
+│   └── s3_utils.py                # Functions to interact with S3
+├── data/
+│   └── imdb_1000.csv              # Sample dataset for local testing
+├── tests/                         # Unit tests
+│   └── test_producer.py           # Tests for producer
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project overview and setup instructions
+└── .gitignore                     # Ignored files
+

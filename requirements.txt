@@ -1,0 +1,4 @@
+boto3==1.26.0
+kafka-python==2.0.2
+pandas==1.4.3
+pytest==7.1.2  # For testing purposes
